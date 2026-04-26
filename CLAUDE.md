@@ -15,8 +15,9 @@
 - 🔥 Firebase 專案：`ai-test-f5f63`（資料的家）
 
 ## 工具清單
-（之後加新工具時會自動更新）
-- （尚無）
+- `coordinate-hunter`（✅ 已完成）：直角座標練習遊戲
+  - 路徑：`tools/coordinate-hunter/index.html`
+  - 功能：11×11 格點、10 個隱藏座標、60 秒倒數
 
 ## Firebase 設定
 - 專案 ID：`ai-test-f5f63`
