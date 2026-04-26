@@ -1,3 +1,27 @@
+# ── 案件資料隔離（絕對不上雲 GitHub）────────────
+# 案件資料夾：依「案號-當事人類別」命名
+matters/
+cases/
+*-案件/
+*-當事人/
+*-民事/
+*-刑事/
+*-行政/
+
+# Notion / 案件筆記
+案件/
+matters-*/
+private/
+.private/
+
+# NotebookLM 案件資料（包含案件內容的匯出檔）
+*.nbllm.zip
+notebooklm-exports/
+
+# ── Firebase 敏感設定 ─────────────────────────
+firebase-debug.log
+firestore-debug.log
+
 # OneDrive 系統檔
 desktop.ini
 *.tmp
