@@ -1,0 +1,20 @@
+# OneDrive 系統檔
+desktop.ini
+*.tmp
+~$*
+
+# 敏感資料
+.env
+*.key
+credentials.*
+
+# WorkBuddy 本地設定（含 permissions、可能記錄 token，絕不上雲）
+.workbuddy/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# OS 臨時檔
+.DS_Store
+Thumbs.db
